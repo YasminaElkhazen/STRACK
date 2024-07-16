@@ -37,7 +37,7 @@ def login():
 
     try:
         user = auth.get_user_by_email(email)
-        response = requests.post("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBU5N1y_ipDWLQMNC71C1AfVP7GSnz2Png",
+        response = requests.post("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={}",
                                  data={'email': email, 'password': password, 'returnSecureToken': True})
         response_data = response.json()
 
