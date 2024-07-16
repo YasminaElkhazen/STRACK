@@ -7,7 +7,7 @@ from users import Users
 
 app = Flask(__name__)
 CORS(app)
-app.secret_key = 'shuifyzbhsby5f4q5fq41qg&54é54d'
+app.secret_key = ''
 cred = credentials.Certificate('./service.json')
 firebase_admin.initialize_app(cred)
 @app.route('/register', methods=['POST'])
