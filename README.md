@@ -9,3 +9,7 @@ python app.py (make sure to install all required packages)
 3.run React App : 
 npm start (make sure to install all dependencies (npm install)) 
 Have fun :))
+
+
+https://github.com/user-attachments/assets/34b66c2b-a53f-4e85-a526-891be8d43c57
+
