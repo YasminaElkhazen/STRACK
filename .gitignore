@@ -1,0 +1,5 @@
+env
+front/node_modules
+atelliteServer/__pycache__
+atelliteServer/.idea
+    

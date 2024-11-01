@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: ./atelliteServer  # Path to the backend Dockerfile
+      dockerfile: DOCKERFILE
+    ports:
+      - "1000:1000"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./front  # Path to the frontend Dockerfile
+      dockerfile: DOCKERFILE
+    ports:
+      - "4000:4000"
+    networks:
+      - app-network
+  
+
+networks:
+  app-network:
+    driver: bridge
