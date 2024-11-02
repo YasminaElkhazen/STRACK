@@ -1,7 +1,7 @@
 # Welcome to the satellite tracking web app 
 ## Config: 
 ### create a firebase and a n2yo.com account.
-### create a credentials.json and add your api keys file and a service.json file to add your firebase acc details
+### create a credentials.json file and add your api keys and a service.json file to add your firebase acc details
 ### run docker-compose build 
 ### run docker-compse up 
 ### enjoy 🖤
